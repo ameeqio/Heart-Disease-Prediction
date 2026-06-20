@@ -1,39 +1,27 @@
 # 🫀 Heart Disease Prediction System
 
-A machine learning-based web application that predicts the likelihood of heart disease based on patient health parameters.
+A machine learning web application that predicts the likelihood of heart disease based on patient health parameters.
 
-## Overview
+## 🚀 Live Demo
 
-This project uses machine learning algorithms to analyze medical features and predict whether a patient is likely to have heart disease. Multiple classification models were evaluated, and the best-performing model was deployed using Streamlit.
+**Application:** [https://heart-disease-prediction-gbfnynqyko8ftmgy9fjuzm.streamlit.app/]
 
-## Features
+## 📌 Project Overview
 
-* Data preprocessing and cleaning
-* Feature engineering
-* Model comparison and evaluation
-* Interactive Streamlit web application
-* Real-time heart disease prediction
+This project uses machine learning classification algorithms to predict whether a patient is likely to have heart disease based on clinical and diagnostic features.
 
-## Technologies Used
+The project covers the complete machine learning workflow:
 
-* Python
-* Pandas
-* NumPy
-* Scikit-learn
-* Streamlit
-* Matplotlib
-* Seaborn
-* SciPy
+* Data Cleaning
+* Exploratory Data Analysis (EDA)
+* Feature Engineering
+* Model Training
+* Model Evaluation
+* Model Deployment using Streamlit
 
-## Machine Learning Models Evaluated
+## 📊 Dataset Features
 
-* Logistic Regression
-* K-Nearest Neighbors (KNN)
-* Support Vector Machine (SVM)
-* Naive Bayes
-* Decision Tree
-
-## Dataset Features
+The model uses the following patient attributes:
 
 * Age
 * Sex
@@ -42,51 +30,79 @@ This project uses machine learning algorithms to analyze medical features and pr
 * Cholesterol
 * Fasting Blood Sugar
 * Resting ECG
-* Maximum Heart Rate
+* Maximum Heart Rate Achieved
 * Exercise-Induced Angina
 * Oldpeak
 * ST Slope
 
-## Installation
+## 🤖 Models Evaluated
 
-```bash
-git clone <repository-url>
-cd heart-disease-prediction
-pip install -r requirements.txt
-streamlit run app.py
-```
+The following machine learning algorithms were compared:
 
-## Project Structure
+* Logistic Regression
+* K-Nearest Neighbors (KNN)
+* Support Vector Machine (SVM)
+* Naive Bayes
+* Decision Tree
 
-```text
-heart-disease-prediction/
-│
-├── app.py
-├── notebook.ipynb
-├── heart_model.pkl
-├── requirements.txt
-└── README.md
-```
+The best-performing model was selected as K-Nearest Neighbors(KNN) and deployed in the application.
 
-## Results
+## 📈 Evaluation Metrics
 
-The models were evaluated using:
+Models were evaluated using:
 
 * Accuracy
 * Precision
 * Recall
-* F1-Score
+* F1 Score
 * Confusion Matrix
 
-The best-performing model was selected and integrated into the Streamlit application.
+## 🛠 Technologies Used
 
-## Future Improvements
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* Streamlit
+
+## 📂 Project Structure
+
+heart-disease-prediction/
+
+├── app.py
+
+├── heart_model.pkl
+
+├── exp_cols.pkl
+
+├── notebook.ipynb
+
+├── requirements.txt
+
+└── README.md
+
+## ⚙️ Installation
+
+Clone the repository:
+
+git clone <your-repository-url>
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run the application:
+
+streamlit run app.py
+
+## 🎯 Future Improvements
 
 * Hyperparameter tuning
-* More advanced feature engineering
-* Improved UI/UX
-* Deployment to cloud platforms
+* Model explainability using SHAP
+* Improved user interface
+* Additional medical visualizations
 
-## Author
+## 👨‍💻 Author
 
 Ameeq Akhtar
+
