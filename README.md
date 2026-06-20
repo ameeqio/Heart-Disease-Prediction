@@ -4,7 +4,7 @@ A machine learning web application that predicts the likelihood of heart disease
 
 ## 🚀 Live Demo
 
-**Application:** [https://heart-disease-prediction-gbfnynqyko8ftmgy9fjuzm.streamlit.app/]
+**Application:** https://heart-disease-prediction-gbfnynqyko8ftmgy9fjuzm.streamlit.app/
 
 ## 📌 Project Overview
 
