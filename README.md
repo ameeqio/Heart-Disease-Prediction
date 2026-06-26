@@ -44,8 +44,11 @@ The following machine learning algorithms were compared:
 * Support Vector Machine (SVM)
 * Naive Bayes
 * Decision Tree
+* Random Forest Classifier
+* XG Boost
 
-The best-performing model was selected as K-Nearest Neighbors(KNN) and deployed in the application.
+
+The best-performing model was selected as Random Forest Classifier [accuracy : 88%, f1-score : 90%] and deployed in the application.
 
 ## 📈 Evaluation Metrics
 

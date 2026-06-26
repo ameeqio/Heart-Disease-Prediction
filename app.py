@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import joblib
 
-model_KNN = joblib.load("model_KNN.pkl")
+model_rf = joblib.load("model_rf.pkl")
 std_scaler = joblib.load("std_scaler.pkl")
 exp_cols = joblib.load("exp_cols.pkl")
 
@@ -52,7 +52,7 @@ if st.button("PREDICT") :
     cols = ['Age', 'RestingBP', 'Cholesterol', 'MaxHR', 'Oldpeak']
     input_df[cols] = std_scaler.fit_transform(input_df[cols])
 
-    prediction = model_KNN.predict(input_df)
+    prediction = model_rf.predict(input_df)
 
     if int(prediction[0]) == 1 :
         st.error("⚠️ RISK OF HEART DISEASE")
