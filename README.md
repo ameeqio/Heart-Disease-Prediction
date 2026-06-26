@@ -47,7 +47,6 @@ The following machine learning algorithms were compared:
 * Random Forest Classifier
 * XG Boost
 
-
 The best-performing model was selected as Random Forest Classifier [accuracy : 88%, f1-score : 90%] and deployed in the application.
 
 ## 📈 Evaluation Metrics
