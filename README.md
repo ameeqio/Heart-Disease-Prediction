@@ -45,7 +45,7 @@ The following machine learning algorithms were compared:
 * Naive Bayes
 * Decision Tree
 
-The best-performing model was selected as K-Nearest Neighbors(KNN) and deployed in the application.
+The best-performing model was selected as K-Nearest Neighbors(KNN) [accuracy : 89% and f1-score : 90%] and deployed in the application.
 
 ## 📈 Evaluation Metrics
 
